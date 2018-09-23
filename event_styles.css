@@ -3,7 +3,7 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 .icons-social i {
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 /* Custom Styles */
@@ -26,7 +26,7 @@ main {
 .intro {
 	text-align: left;
 	font-family: 'Reem Kufi', sans-serif;
-	font-size: 2.5rem;
+	font-size: 3rem;
 	padding-top :10px;
 	padding-bottom: 3.5%;
 	font-weight: 300;
@@ -40,13 +40,13 @@ main {
 	padding-top: 20%;
 	padding-left:40px;
 	padding-right:5px;
-	font-size: 0.8rem;
+	font-size: 1.2rem;
 	font-weight: 100;
 }
 
 .icons-social i {
 	padding: 10px;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 }
 
 .back{
@@ -70,13 +70,44 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 15px;
+	}
+	.tagline{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	html {
+		font-size: 12px;
+	}
+	.tagline{
+		font-size:12px;
+		padding-left: 30px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 10px;
+	}
+	.tagline{
+		font-size:11px;
+		padding-left: 30px;
+		padding-top:30px;
+	}
+}
+
+@media screen and (max-width: 340px) {
 	html {
 		
 	}
 	.tagline{
-		padding-left: 20%;
-		font-size:0.6rem!important;
+		padding-left: 15%;
+		font-size:0.8rem;
 		padding-top:30px;
 		padding-bottom: 30px; 
 		padding-right: 0px;
@@ -92,29 +123,3 @@ html {
 	}
 }
 
-@media screen and (max-width: 768px) {
-	html {
-		font-size: 10px;
-	}
-	.tagline{
-		font-size:11px;
-		padding-left: 30px;
-		padding-top:30px;
-	}
-}
-
-@media screen and (max-width: 992px) {
-	html {
-		font-size: 12px;
-	}
-	.tagline{
-		font-size:12px;
-		padding-left: 30px;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	html {
-		font-size: 15px;
-	}
-}
